@@ -1,0 +1,31 @@
+body{
+    background-color: green;
+}
+.cardSection{
+    display: flex;
+    justify-content: center;
+}
+.cardSection div{
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+button{
+    /* width: 120px; */
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(31, 61, 31);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    border: 2px solid  rgb(31, 61, 31);
+    color:  rgb(31, 61, 31);
+}
